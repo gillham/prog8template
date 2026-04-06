@@ -61,7 +61,7 @@ build-cx16: platform=cx16
 build-%: $(BUILD_DIR)/main%.prg
 	@echo "End platform: $(platform)"
 
-# list at prg per platform
+# list one prg per platform
 $(BUILD_DIR)/mainc64.prg: platform=c64
 $(BUILD_DIR)/maincx16.prg: platform=cx16
 $(BUILD_DIR)/%.prg: $(SRCS)
